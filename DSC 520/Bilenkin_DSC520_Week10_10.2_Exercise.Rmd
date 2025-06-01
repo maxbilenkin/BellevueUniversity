@@ -1,0 +1,153 @@
+---
+title: '10.2 Logistic Regression'
+author: "Maxim Bilenkin"
+date: "2025-02-11"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Fit a Logistic Regression Model to Thoracic Surgery Binary Dataset
+
+```{r, echo=TRUE}
+# Clearing the environment to insure it has fresh start
+rm(list = ls())
+
+# Loading necessary libraries 
+library(foreign)
+```
+
+
+```{r, echo=TRUE}
+# Downloading the ARFF file from the provided URL
+url <- 
+"https://archive.ics.uci.edu/ml/machine-learning-databases/00277/ThoraricSurgery.arff"
+
+download.file(url, destfile = "ThoraricSurgery.arff", method = "curl")
+
+# Loading data from the downloaded ARFF file and saving into variable
+data <- read.arff("ThoraricSurgery.arff")
+```
+
+
+Exploring the Dataset to learn and get insight of the data.
+
+```{r, echo=TRUE}
+str(data)
+summary(data)
+```
+
+Data Pre-processing.
+
+The Risk1Yr variable has values as 1 and 2 instead of expected values 0 and 1.
+
+Thus, will convert 1 to 0 and 2 to 1 to get expected binary values as 0 and 1.
+
+```{r, echo=TRUE}
+# Converting all factor columns to numeric
+data[] <- lapply(data, function(x) if(is.factor(x)) as.numeric(as.factor(x)) else x)
+
+# Splitting the dataset into training and testing sets
+library(caret)
+set.seed(123)
+index <- createDataPartition(data$Risk1Yr, p = 0.8, list = FALSE)
+train_data <- data[index, ]
+test_data <- data[-index, ]
+
+# Converting Risk1Yr variable values to binary 0 and 1
+train_data$Risk1Yr <- ifelse(train_data$Risk1Yr == 2, 1, 0)
+test_data$Risk1Yr <- ifelse(test_data$Risk1Yr == 2, 1, 0)
+
+# Checking to make sure the conversion worked
+unique(train_data$Risk1Yr)
+```
+
+i. Fit a Logistic Regression Model to Thoracic Surgery Binary Dataset
+
+```{r, echo=TRUE}
+# Fitting the logistic regression model
+model_glm <- glm(Risk1Yr ~ ., data = train_data, family = binomial)
+
+# Summary of the logistic regression model
+summary(model_glm)
+```
+
+ii. According to the summary, which variables had the greatest effect on the survival rate?
+
+Answer:
+
+Looking at the statistical summary we can see that only two variables PRE9 and PRE14 had the greatest effect on the survival rate. Both variables are statistically significant. For example, variable PRE9 has z-value of 2.577, p-value of 0.00995 and statistically significant at the 1% level. Variable PRE14 has z-value of 3.912, p-value of 9.16e-05 and statistically significant at the 0.1% level. Thus, these are the two factors that help us understand the most important factors that help for a patient to survive one year after the thoracic surgery was done. Additionally, medical personal can improve treatment for patients by concentrating more on these two PRE9 and PRE14 variables and prolong patients lives.
+
+
+iii. To compute the accuracy of your model, use the dataset to predict the outcome variable. The percent of correct predictions is the accuracy of your model. What is the accuracy of your model?
+
+Evaluating the Model
+
+```{r, echo=TRUE}
+# Predicting on the test data
+predictions_on_the_testdata <- predict(model_glm, newdata = test_data, type = "response")
+predicted_classes <- ifelse(predictions_on_the_testdata > 0.5, 1, 0)
+
+# Creating a confusion matrix
+confusionMatrix(as.factor(predicted_classes), as.factor(test_data$Risk1Yr))
+```
+
+Answer:
+
+According to the calculated outcome, the accuracy of the model based on the dataset is 0.8298. We can state that 82.98% of the predictions were correct using the model with this dataset.
+
+
+2. Fit a Logistic Regression Model
+
+  a. Fit a logistic regression model to the binary-classifier-data.csv dataset
+
+```{r, echo=TRUE}
+# Loading necessary libraries
+library(caret)
+
+# Loading the data file
+data <-
+read.csv(
+"C:/Users/maxim/OneDrive/Desktop/Bellevue University/DSC 520/binary-classifier-data.csv")
+
+# Exploring the dataset to get insight and understanding of the data
+str(data)
+summary(data)
+head(data)
+
+# Fitting the Logistic Regression Model
+# Using 'label' as the target variable
+model_glm <- glm(label ~ x + y, data = data, family = binomial)
+
+# Summarizing the model
+summary(model_glm)
+
+# Evaluating the Model
+# Splitting dataset into two sets if not already split
+set.seed(123)
+index <- createDataPartition(data$label, p = 0.8, list = FALSE)
+train_data <- data[index, ]
+test_data <- data[-index, ]
+
+# Fitting the model on the training data
+model_glm <- glm(label ~ x + y, data = train_data, family = binomial)
+
+# Predicting on the test data
+predictions <- predict(model_glm, newdata = test_data, type = "response")
+predicted_classes <- ifelse(predictions > 0.5, 1, 0)
+
+# Creating a confusion matrix to evaluate the model
+confusionMatrix(as.factor(predicted_classes), as.factor(test_data$label))
+
+# Calculating the Accuracy
+accuracy <- sum(predicted_classes == test_data$label) / nrow(test_data)
+print(paste("Accuracy:", accuracy))
+```
+ b.
+     i. What is the accuracy of the logistic regression classifier?
+ 
+Answer:
+
+Looking at the outcome of the model, the accuracy of the logistic regression classifier for this dataset is 0.5351. This means that the model correctly predicted 53.51% of the outcomes. This is a slightly better outcome than randomly guessing, where chance the chance for prediction is 50/50. However, this model doesn't have impressive predictive power because it is almost on par with the random guessing.
