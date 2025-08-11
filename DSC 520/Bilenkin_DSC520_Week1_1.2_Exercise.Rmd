@@ -1,0 +1,37 @@
+---
+title: "Define Measurement Error"
+author: "Maxim Bilenkin"
+date: "2024-11-26"
+output: pdf_document
+---
+
+## Task 4 Measurement error in computer program.
+
+Say I own 857 CDs. My friend has written a computer program that uses a webcam to scan the shelves in my house where I keep my CDs and measure how many I have. His program says that I have 863 CDs. 
+
+### Define measurement error. What is the measurement error in my friend’s CD-counting device?
+
+**Measurement error is the difference between true value and the value that was obtained from measurement process.**
+
+### Systematic Error Explanation
+
+It looks like the computer program has systematic error, also known as biased error. It counts incorrectly the quantity of CDs on the shelves. How do we know it? In a correct situation both actual and output quantity should be equal. In this case, the actual and program output quantities differ. The actual number is 857 and the output is 863 CDs. The measurement error in the program is 6 CDs. We can calculate it as follows;
+
+```markdown
+Measurement error = observed value – true quantity
+Measurement error = 863 – 857 = 6 CDs
+
+
+### Calculation
+
+```{r results='asis'}
+# Created actual and output quantity variable
+actual_quantity <- 857
+output_quantity <- 863
+
+# Calculate measurement error
+measurement_error <- output_quantity - actual_quantity
+
+# Print result in better format without ## and [] 
+cat("The measurement error is", measurement_error, "CDs.")
+
