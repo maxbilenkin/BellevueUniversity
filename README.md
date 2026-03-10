@@ -27,7 +27,7 @@ This repository contains all completed coursework for Bellevue University Data S
 7. [DSC 630 – Predictive Analytics](./DSC%20630%20Predictive%20Analytics)  
    Predictive modeling, regression, classification, feature selection, and project-based application.
 
-8. [DSC 640 – Data Presentation & Visualization](./DSC%20640%20Data%20Presentation%20%26%20Visualization)  
+8. [DSC 640 – Data Presentation and Visualization](./DSC%20640%20Data%20Presentation%20and%20Visualization)  
    Communicating data insights through visualizations, dashboards, and presentation techniques.
 
 9. [DSC 670 – Advanced Uses of Generative AI](./DSC%20670%20Advanced%20Uses%20of%20Generative%20AI)  
