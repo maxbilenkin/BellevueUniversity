@@ -6,7 +6,7 @@ This repository contains my completed coursework for Bellevue University’s Dat
 
 ## Courses
 
-1. [DSC 500 – Introduction to Data Science](./DSC%20500)  
+1. [DSC 500 – Introduction to Data Science](./DSC%20500%20Introduction%20to%20Data%20Science)  
    Fundamental concepts in data science, including data manipulation, visualization, and introductory statistical analysis.
 
 2. [DSC 510 – Introduction to Python Programming](./DSC%20510)  
