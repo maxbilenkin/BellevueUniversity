@@ -18,7 +18,7 @@ This repository contains all completed coursework for Bellevue University Data S
 4. [DSC 530 – Data Exploration and Analysis](./DSC%20530%20Data%20Exploration%20and%20Analysis)  
    Exploratory data analysis, visualization, and intermediate analytical techniques to interpret data sets.
 
-5. [DSC 540 – Data Preparation/Term Project](./DSC%20540%20Data%20Preparation%20Term%20Project)  
+5. [DSC 540 – Data Preparation](./DSC%20540%20Data%20Preparation%20Term%20Project)  
    Data cleaning, transformation, and preparation for analysis and modeling; term project work included.
 
 6. [DSC 550 – Data Mining and Machine Learning](./DSC%20550%20Data%20Mining%20and%20Machine%20Learning)  
