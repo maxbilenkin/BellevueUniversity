@@ -1,44 +1,45 @@
-# Bellevue University – Data Science Coursework
+# Bellevue University – Data Science Courses
 
-This repository contains my completed coursework for Bellevue University’s Data Science program. Each folder corresponds to a course and includes assignments, projects, and milestone files in Word, PDF, Jupyter Notebook, and other relevant formats.
+This repository contains all completed coursework for Bellevue University Data Science classes, organized by course. Each folder contains assignments, exercises, and projects in their respective formats (Word, PDF, Jupyter Notebooks, PowerPoint, etc.).
 
 ---
 
-## Courses
+## Course List
 
 1. [DSC 500 – Introduction to Data Science](./DSC%20500%20Introduction%20to%20Data%20Science)  
    Fundamental concepts in data science, including data manipulation, visualization, and introductory statistical analysis.
 
-2. [DSC 510 – Introduction to Python Programming](./DSC%20510)  
-   Python programming for data analysis, covering variables, control flow, functions, and basic libraries like pandas and matplotlib.
+2. [DSC 510 – Introduction to Python Programming](./DSC%20510%20Introduction%20to%20Python%20Programming)  
+   Python programming basics, data structures, functions, and introductory programming for data science applications.
 
-3. [DSC 520 – Statistics for Data Science](./DSC%20520)  
-   Descriptive and inferential statistics, hypothesis testing, probability distributions, and statistical modeling using R.
+3. [DSC 520 – Statistics for Data Science using R Programming](./DSC%20520%20Statistics%20for%20Data%20Science%20using%20R%20Programming)  
+   Statistical methods, hypothesis testing, regression, and R programming for data analysis.
 
-4. [DSC 530 – Data Exploration and Analysis](./DSC%20530)  
-   Techniques for exploring, cleaning, and analyzing datasets, including EDA and preliminary project work.
+4. [DSC 530 – Data Exploration and Analysis](./DSC%20530%20Data%20Exploration%20and%20Analysis)  
+   Exploratory data analysis, visualization, and intermediate analytical techniques to interpret data sets.
 
-5. [DSC 540 – Data Preparation](./DSC%20540)  
-   Advanced data wrangling, cleaning, and transformation techniques in preparation for analytics and modeling.
+5. [DSC 540 – Data Preparation/Term Project](./DSC%20540%20Data%20Preparation%20Term%20Project)  
+   Data cleaning, transformation, and preparation for analysis and modeling; term project work included.
 
-6. [DSC 550 – Data Mining and Machine Learning](./DSC%20550)  
-   Introduction to supervised and unsupervised learning, model evaluation, and machine learning applications.
+6. [DSC 550 – Data Mining and Machine Learning](./DSC%20550%20Data%20Mining%20and%20Machine%20Learning)  
+   Machine learning algorithms, data mining techniques, classification, clustering, and model evaluation.
 
 7. [DSC 630 – Predictive Analytics](./DSC%20630%20Predictive%20Analytics)  
-   Predictive modeling, feature selection, classification, regression, and real-world case studies.
+   Predictive modeling, regression, classification, feature selection, and project-based application.
 
-8. [DSC 640 – Data Presentation and Visualization](./DSC%20640%20Data%20Presentation%20and%20Visualization)  
-   Best practices for communicating data insights using visualizations, dashboards, and reports.
+8. [DSC 640 – Data Presentation & Visualization](./DSC%20640%20Data%20Presentation%20%26%20Visualization)  
+   Communicating data insights through visualizations, dashboards, and presentation techniques.
 
 9. [DSC 670 – Advanced Uses of Generative AI](./DSC%20670%20Advanced%20Uses%20of%20Generative%20AI)  
-   Applying generative AI tools to data science workflows, fine-tuning models, and building AI-assisted projects.
+   Applications of generative AI in data science, project-based exercises, and fine-tuning models for tasks.
 
 10. [DSC 680 – Applied Data Science](./DSC%20680%20Applied%20Data%20Science)  
-    Capstone-style projects applying data science techniques to real-world datasets and problems.
+    Advanced applied data science techniques, integrating analytics, machine learning, and project workflows.
 
 ---
 
-## Notes
+**Notes:**  
 
-- Files are provided in their original formats, including Word, PDF, Jupyter Notebook, and Power BI (.pbix) where applicable.  
-- Folders are organized by course and milestone to maintain a clear progression of assignments and projects.  
+- All folders contain the completed assignments and project work for each course.  
+- File formats include Word, PDF, Jupyter Notebooks, PowerPoint, and other relevant data files.  
+- Ensure the folders are correctly named on GitHub to match these links for proper navigation.  
