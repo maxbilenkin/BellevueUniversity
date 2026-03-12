@@ -10,7 +10,7 @@ This course introduces the Python programming language as a tool for cleaning, p
 - JSON data handling
 
 ## Course Project
-For the final project, I developed a Python application that retrieves real-time weather information using the **OpenWeather API**.
+For the final project, I developed a Python application that retrieves real-time weather information using the **OpenWeatherMap API**.
 
 The program allows users to enter either:
 - a **ZIP code**, or  
