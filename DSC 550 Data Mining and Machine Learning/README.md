@@ -24,3 +24,6 @@ Credit card usage has become essential, but fraudulent transactions are a growin
 - Identified transaction patterns that are indicative of fraud  
 - Highlighted the importance of features like transaction amount, category, and gender in predicting fraudulent activity  
 - Demonstrated how machine learning models can proactively support fraud prevention
+
+## Dataset
+The dataset used in this project is included in this repository.
