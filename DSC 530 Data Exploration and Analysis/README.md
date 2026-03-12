@@ -1,7 +1,7 @@
 # DSC 530 – Data Exploration and Analysis
 
 ## Course Overview
-This course focuses on advanced techniques for **profiling, exploring, and understanding data**. Students apply programming and statistical inference to ask and answer insightful questions. Exploratory Data Analysis (EDA), visualization, and interpretation of results are emphasized. Prerequisites: DSC 510 and DSC 520.
+This course focuses on advanced techniques for **profiling, exploring, and understanding data**. Students apply programming and statistical inference to ask and answer insightful questions. Exploratory Data Analysis (EDA), visualization, and interpretation of results are emphasized. 
 
 ## Course Project
 For the project, I analyzed **factors influencing loan approval** using Python and Jupyter Notebook. The goal was to identify key variables that affect approval decisions and provide actionable insights.
