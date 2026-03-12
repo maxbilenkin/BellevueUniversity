@@ -14,7 +14,7 @@ For the final project, I analyzed the impact of **excessive alcohol consumption 
 
 ### Datasets Used
 1. **Global Alcohol Consumption by WHO** – 1960–2020, 48,924 records per capita alcohol consumption (grams)  
-   [WHO data link](https://www.who.int/data/gho/data/themes/topics/topicdetails/GHO/levels-of-consumption)
+   [WHO data link](https://ghobulkdownloads.blob.core.windows.net/ghocontainer/levels-of-consumption.zip)
 2. **Alcohol and Life Expectancy (Kaggle)** – International dataset linking alcohol consumption to life expectancy  
    [Kaggle link](https://www.kaggle.com/datasets/thedevastator/relationship-between-alcohol-consumption-and-lif/data)
 3. **Happiness and Alcohol Consumption (Kaggle)** – Survey-based dataset to analyze correlation between happiness and alcohol use  
