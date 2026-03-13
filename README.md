@@ -3,7 +3,6 @@
 This repository contains all completed coursework for Bellevue University Data Science classes, organized by course. Each folder contains assignments, exercises, and projects in their respective formats (Word, PDF, Jupyter Notebooks, PowerPoint, etc.).
 
 ---
-
 ## Course List
 
 1. [DSC 500 – Introduction to Data Science](./DSC%20500%20Introduction%20to%20Data%20Science)  
