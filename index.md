@@ -1,11 +1,13 @@
 # Maxim Bilenkin – Data Science Portfolio
 
 ## About Me
-I am a data science graduate student with hands-on experience in Python, R, machine learning, and data analysis. I specialize in building predictive models, performing exploratory data analysis, and developing data-driven solutions to real-world problems.
+I am a data science graduate student with a strong interest in applying data-driven methods to solve real-world problems across different domains. My work focuses on transforming raw data into meaningful insights that support better decision-making.
 
-My work focuses on finance, risk analysis, and business decision-making, including projects in fraud detection, customer behavior modeling, and generative AI applications.
+I have hands-on experience with data analysis, machine learning, and data visualization using tools such as Python, Pandas, Scikit-learn, and Streamlit. My projects include predictive modeling, pattern detection, and building applications that analyze both structured and unstructured data.
 
-I am actively seeking opportunities where I can apply data science to solve impactful business problems.
+Through these projects, I have developed skills in data cleaning, exploratory data analysis (EDA), feature engineering, and model evaluation. I enjoy working with complex datasets and identifying patterns that can drive practical and impactful solutions.
+
+I am particularly interested in roles where I can continue to grow as a data professional, contribute to solving meaningful business problems, and apply analytical thinking to a variety of industries.
 
 ---
 
