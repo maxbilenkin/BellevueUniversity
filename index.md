@@ -48,6 +48,54 @@ Combined datasets from APIs, flat files, and web scraping to analyze alcohol con
 
 ---
 
+### Centenarian Longevity Analysis
+
+Analyzed global search trends and lifestyle patterns related to exceptional longevity and living beyond 100 years old using statistical analysis and visualization techniques.
+**Tools:** Python, Pandas, Matplotlib
+[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20500%20Introduction%20to%20Data%20Science)
+
+---
+
+### Weather Data API Application
+
+Built a Python application that retrieves real-time weather information based on city, state, or ZIP code using the OpenWeather API.
+**Tools:** Python, API Integration
+[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20510%20Introduction%20to%20Python%20Programming)
+
+---
+
+### Alcohol Consumption & Health Analysis
+
+Used statistical analysis in R to examine relationships between alcohol consumption, happiness, and life expectancy across countries.
+**Tools:** R, Data Visualization, Statistical Analysis
+[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20520%20Statistics%20for%20Data%20Science%20using%20R%20Programming)
+
+---
+
+### Data Preparation & Integration Project
+
+Combined and cleaned data from APIs, flat files, and web scraping sources to analyze alcohol consumption and heart disease trends.
+**Tools:** Python, Web Scraping, APIs, Pandas
+[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20540%20Data%20Preparation)
+
+---
+
+### Childcare Cost Trend Analysis in the United States
+
+Analyzed rising infant childcare costs in the United States using storytelling, visualization, and trend analysis techniques.
+**Tools:** Python, Data Visualization, Microsoft Azure Maps
+[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20640%20Data%20Presentation%20and%20Visualization)
+
+---
+
+### Predicting Credit Card Customer Default Risk Using Machine Learning
+
+Developed machine learning models to predict customer default risk using demographic, financial, and repayment behavior data. Compared Logistic Regression and Random Forest performance using ROC-AUC, confusion matrices, and feature importance analysis.
+**Tools:** Python, Scikit-learn, Pandas, Matplotlib
+[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20680%20Applied%20Data%20Science/Project%202)
+
+---
+
 ## Contact
 - GitHub: https://github.com/maxbilenkin
 - Email: (maxbilenkin@gmail.com)
