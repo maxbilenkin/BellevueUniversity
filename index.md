@@ -27,6 +27,16 @@ Applied machine learning techniques to identify patterns and detect fraudulent c
 
 ---
 
+### Credit Card Customer Churn Prediction
+
+Developed machine learning models to predict customer churn behavior using demographic, financial, and transaction activity data. Compared Logistic Regression and Random Forest models to identify customers at risk of leaving and support customer retention strategies.
+
+**Tools:** Python, Pandas, Scikit-learn, Matplotlib
+
+[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20680%20Applied%20Data%20Science/Project%201)
+
+---
+
 ### Customer Targeting for Credit Cards
 Developed classification models to identify individuals most likely to sign up for a new credit card based on demographic and behavioral data, improving marketing efficiency and customer acquisition strategies.  
 **Tools:** Python, Pandas, Scikit-learn  
@@ -38,13 +48,6 @@ Developed classification models to identify individuals most likely to sign up f
 Performed exploratory data analysis (EDA) and statistical modeling to identify key factors influencing loan approval decisions, providing insights into applicant risk and lending behavior.  
 **Tools:** Python, Pandas, Matplotlib  
 [View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20530%20Data%20Exploration%20and%20Analysis)
-
----
-
-### Data Preparation and Integration for Health Analysis
-Combined datasets from APIs, flat files, and web scraping to analyze alcohol consumption and its relationship to heart disease, demonstrating data integration and preprocessing skills across multiple data sources.  
-**Tools:** Python, SQL  
-[View Project](https://github.com/maxbilenkin/BellevueUniversity/tree/master/DSC%20540%20Data%20Preparation)
 
 ---
 
